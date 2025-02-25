@@ -8,7 +8,7 @@ int x;
 float y;
 printf(" Введите целое число ");
 scanf("%d,&x");
-y=log (x);
+y=log (x)*2;
 printf("y=%f",y);
 getchar();
 }
